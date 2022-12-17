@@ -1,2 +1,0 @@
-# coursera.r
-coursera-test
