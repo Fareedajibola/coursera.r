@@ -1,0 +1,123 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The 2021 frontened Developer Scrath course</title>
+        <link rel="stylesheet" href="MAIN.CSS">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="container">
+                <a class="logo" href="#">Remember<span>That</span></a>
+                <img id="mobile-cta" Class="mobile-menu" src="images/menu.png" alt="Open navigation">
+                <nav>
+                    <img id="mobile-exit" Class="mobile-menu-exit" src="images/exit.png" alt="close navigation">
+                    <ul class="Primary-nav">
+                        <li class="Current"><a href="#">Home </a></li>
+                        <li><a href="#">Features </a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+
+                    <ul class="Secondary-nav">
+                        <li><a href="#">Contact </a></li>
+                        <li class="go premium-cta"><a href="#">Go premium</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section Class="hero">
+            <div class="container">
+                <div class="left-col">
+                    <p Class="subhead">It's Nitty &amp; Gritty</p>
+                    <h1>A Task App That Doesn't Stink</h1>
+                    <div class="hero-cta">
+                        <a href="#" class="primary-cta">Try for free</a>
+                        <a href="#" class="Watch-video-Cta">
+                            <img src="Watch.png" alt="Watch a video" watch a video>
+                        </a>
+                    </div>
+                </div>
+                <img src="images/illustration.jpg" class="hero-img"alt="illustration">
+            </div>
+        </section>
+
+        <Section class="features-section">
+            <div class="container">
+                <ul>
+                    <li>Unlimited Tasks</li>
+                    <li>SMS Task Reminders</li>
+                    <li>Confetti Expplosions upon Task Completions</li>
+                    <li>Social Media Announcements</li>
+                    <li>Real Time Collaboration</li>
+                    <li> Other Awesome features</li>
+                </ul>
+               <img src="images/pet.jpg " alt="Man holding Phone">  
+            </div>
+        </Section>
+        <section class="testimonials-section">
+            <div class="container">
+                <ul>
+                    <li>
+                        <img src="images/Fareed.jpg" alt="person">
+
+                        <blockquote>"Lorem ipsum dolar sit amet ,conseteur sadsciping elitr
+                             seddiam nonummy eirmod tempor invidunt ut labore et dolere"</blockquote>
+                        <cite>Fareed</cite>
+                    </li>
+
+                    <li>
+                        <img src="images/Fareed.jpg" alt="person">
+                        
+                        <blockquote>"Lorem ipsum dolar sit amet ,conseteur sadsciping elitr 
+                            seddiam nonummy eirmod tempor invidunt ut labore et dolere"</blockquote>
+                        <cite>Fareed</cite>
+                    </li>
+                    <li>
+                        <img src="images/Fareed.jpg" alt="person">
+                        
+                        <blockquote>"Lorem ipsum dolar sit amet ,conseteur sadsciping elitr
+                             seddiam nonummy eirmod tempor invidunt ut labore et dolere"</blockquote> <cite>Fareed</cite>
+                       
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-left">
+                    <h2>Contact</h2>
+
+                    <form action="">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="Message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                        <input type="Submit" class="send-mesage-cta" value="send message">
+                    </form>
+                </div>
+                <div class="contact-right"></div>
+          
+            </div>
+        </section>
+         <script>
+
+         const mobileBtn = document.getElementrybyId('mobile-cta')
+        nav= document.queryselector('nav')
+        mobileBtnExit= document.getElementById(mobile-exit);
+
+        mobileBtn.addEventlistener('click' ,() => {
+            nav.Classlist.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventlistener('click' ,() => {
+            nav.Classlist.remove('menu-btn');
+        })
+        
+        </script>
+    </body>
+    </html>
